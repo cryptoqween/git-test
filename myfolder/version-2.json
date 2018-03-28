@@ -857,5 +857,18 @@
             "price",
             "type"
         ]
+    },
+    "somethingsomething": {
+        "API": [
+            { "name": "fdjslfds", "url": "https://api.idex.fawieawlehawljehalwhelaws/returnTradeHistory" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "ffds",
+            "fdsf",
+            "fds",
+            "prfdsfdsfdsice",
+            "fdsfdsfds"
+        ]
     }
 }
