@@ -869,6 +869,19 @@
             "amount",
             "gsry3ythr",
             "type"
+             ]
+    },
+    "myownthing": {
+        "API": [
+            { "name": "ETH_SAN", "url": "https://fsdfsfdsfsdf.idex.market/returnTradeHistory" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "uuid",
+            "fsdfsdfsd",
+            "fdsfsdfsd",
+            "price",
+            "fdsfsdfs"
         ]
     }
 }
