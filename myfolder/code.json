@@ -1,0 +1,861 @@
+{
+    "Binance": {
+        "API": [
+            {"name": "LRC_BTC", "url": "https://www.binance.com/api/v1/aggTrades?symbol=LRCBTC&fromId=1"},
+            {"name": "HCC_BTC", "url": "https://www.binance.com/api/v1/aggTrades?symbol=HCCBTC&fromId=1"},
+            {"name": "DNT_ETH", "url": "https://www.binance.com/api/v1/aggTrades?symbol=DNTETH&fromId=1"},
+            {"name": "BNB_ETH", "url": "https://www.binance.com/api/v1/aggTrades?symbol=BNBETH&fromId=1"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "a",
+            "T",
+            "q",
+            "p",
+            "m"
+        ]
+    },
+    "Bit2C": {
+        "API": [
+            {"name": "BTC_NIS", "url": "https://www.bit2c.co.il/Exchanges/BtcNis/trades.json?since=1000"},
+            {"name": "LTC_BTC", "url": "https://www.bit2c.co.il/Exchanges/LtcBtc/trades.json?since=1000"},
+            {"name": "LTC_NIS", "url": "https://www.bit2c.co.il/Exchanges/LtcNis/trades.json?since=1000"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BitBay": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://bitbay.net/API/Public/BTCUSD/trades.json"},
+            {"name": "ETH_USD", "url": "https://bitbay.net/API/Public/ETHUSD/trades.json"},
+            {"name": "BCC_USD", "url": "https://bitbay.net/API/Public/BCCUSD/trades.json"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "type",
+            "tid"
+        ]
+    },
+    "BitFinex": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://api.bitfinex.com/v1/trades/ltcbtc"},
+            {"name": "BTC_USD", "url": "https://api.bitfinex.com/v1/trades/btcusd"},
+            {"name": "OMG_ETH", "url": "https://api.bitfinex.com/v1/trades/omgeth"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "timestamp",
+            "price",
+            "amount",
+            "type",
+            "tid"
+        ]
+    },
+    "BitFlyer": {
+        "API": [
+            {"name": "BTC_JPY", "url": "https://api.bitflyer.jp/v1/executions?product_code=BTC_JPY"},
+            {"name": "ETH_BTC", "url": "https://api.bitflyer.jp/v1/executions?product_code=ETH_BTC"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "side",
+            "size",
+            "price",
+            "exec_date"
+        ]
+    },
+    "BitFlyerFX": {
+        "API": [
+            {"name": "BTC_JPY", "url": "https://api.bitflyer.jp/v1/executions?product_code=FX_BTC_JPY"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "side",
+            "size",
+            "price",
+            "exec_date"
+        ]
+    },
+    "BitGrail": {
+        "API": [
+            {"name": "XRB_BTC", "url": "https://bitgrail.com/api/v1/BTC-XRB/tradehistory"}
+        ],
+        "ResponseObj": ["response"],
+        "Properties": [
+            "date",
+            "price",
+            "amount"
+        ],
+        "MarketsAPI":"https://bitgrail.com/api/v1/markets",
+        "MarketsResponseObj":["response","BTC"],
+        "MarketsProperties":[
+            "market",
+            "last",
+            "high",
+            "low",
+            "volume",
+            "coinVolume",
+            "bid",
+            "ask"
+        ]
+    },
+    "Bithumb": {
+        "API": [
+            {"name": "BTC_KRW", "url": "https://api.bithumb.com/public/recent_transactions/BTC"},
+            {"name": "BTC_KRW", "url": "https://api.bithumb.com/public/recent_transactions/ETH"},
+            {"name": "BTC_KRW", "url": "https://api.bithumb.com/public/recent_transactions/DASH"}
+        ],
+        "ResponseObj": ["data"],
+        "Properties": [
+            "transaction_date",
+            "type",
+            "units_traded",
+            "price",
+            "total"
+        ]
+    },
+    "BitMarket": {
+        "API": [
+            {"name": "BTC_PLN", "url": "https://www.bitmarket.pl/json/BTCPLN/trades.json"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "Bitso": {
+        "API": [
+            {"name": "BTC_MXN", "url": "https://api.bitso.com/v2/transactions?book=btc_mxn&time=hour"},
+            {"name": "ETH_MXN", "url": "https://api.bitso.com/v2/transactions?book=eth_mxn&time=hour"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "side",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BitSquare": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://market.bitsquare.io/api/trades/?market=btc_usd"},
+            {"name": "ETH_BTC", "url": "https://market.bitsquare.io/api/trades/?market=eth_btc"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "trade_date",
+            "direction",
+            "price",
+            "amount",
+            "trade_id"
+        ]
+    },
+    "Bitstamp": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://www.bitstamp.net/api/v2/transactions/btcusd/?time=minute"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BitTrex": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://www.bitstamp.net/api/v2/transactions/btcusd/?time=minute"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "Bleutrade": {
+        "API": [
+            {"name": "ETH_BTC", "url": "https://bleutrade.com/api/v2/public/getmarkethistory?market=ETH_BTC"}
+        ],
+        "ResponseObj": ["result"],
+        "Properties": [
+            "TimeStamp",
+            "OrderType",
+            "Price",
+            "Quantity",
+            "Total"
+        ]
+    },
+    "BTC38": {
+        "API": [
+            {"name": "BTC_CNY", "url": "http://api.btc38.com/v1/trades.php?c=btc&mk_type=cny"},
+            {"name": "LTC_CNY", "url": "http://api.btc38.com/v1/trades.php?c=ltc&mk_type=cny"},
+            {"name": "XRP_CNY", "url": "http://api.btc38.com/v1/trades.php?c=xrp&mk_type=cny"},
+            {"name": "BTS_CNY", "url": "http://api.btc38.com/v1/trades.php?c=bts&mk_type=cny"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BTCChina": {
+        "API": [
+            {"name": "BTC_CNY", "url": "https://data.btcchina.com/data/historydata?market=btccny"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BTCMarkets": {
+        "API": [
+            {"name": "BTC_AUD", "url": "https://api.btcmarkets.net/market/BTC/AUD/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "BTCXIndia": {
+        "API": [
+            {"name": "XRP_INR", "url": "https://api.btcxindia.com/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "time",
+            "price",
+            "volume",
+            "trade_id"
+        ]
+    },
+    "BTER": {
+        "API": [
+            {"name": "XRP_INR", "url": "https://data.bter.com/api/1/trade/btc_cny"}
+        ],
+        "ResponseObj": ["data"],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "CCEX": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://c-cex.com/t/api_pub.html?a=getmarkethistory&market=USD-BTC"}
+        ],
+        "ResponseObj": ["result"],
+        "Properties": [
+            "TimeStamp",
+            "OrderType",
+            "Price",
+            "Quantity",
+            "Id"
+        ]
+    },
+    "Cexio": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://cex.io/api/trade_history/BTC/USD"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "CHBTC": {
+        "API": [
+            {"name": "BTC_CNY", "url": "http://api.chbtc.com/data/getTrades"},
+            {"name": "ETH_CNY", "url": "http://api.chbtc.com/data/eth/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "type",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "Coinbase": {
+        "API": [
+            {"name": "LTC_EUR", "url": "https://api.gdax.com/products/LTC-EUR/trades"},
+            {"name": "BTC_EUR", "url": "https://api.gdax.com/products/BTC-EUR/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "time",
+            "side",
+            "price",
+            "size",
+            "trade_id"
+        ]
+    },
+    "Coincheck": {
+        "API": [
+            {"name": "BTC_JPY", "url": "https://coincheck.jp/api/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "created_at",
+            "order_type",
+            "rate",
+            "amount",
+            "id"
+        ]
+    },
+    "Coinfloor": {
+        "API": [
+            {"name": "XRP_GBP", "url": "https://webapi.coinfloor.co.uk:8090/bist/XBT/GBP/transactions/"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "tid"
+        ]
+    },
+    "Coinone": {
+        "API": [
+            {"name": "BTC_KRW", "url": "https://api.coinone.co.kr/trades?format=json&period=hour&currency=btc"},
+            {"name": "XRP_KRW", "url": "https://api.coinone.co.kr/trades?format=json&period=hour&currency=xrp"}
+        ],
+        "ResponseObj": ["completeOrders"],
+        "Properties": [
+            "timestamp",
+            "price",
+            "qty"
+        ]
+    },
+    "Cryptopia": {
+        "API": [
+            {"name": "BTC_USDT", "url": "https://www.cryptopia.co.nz/api/GetMarketHistory/4909"}
+        ],
+        "ResponseObj": ["Data"],
+        "Properties": [
+            "TradePairId",
+            "Type",
+            "Price",
+            "Amount",
+            "Timestamp",
+            "Total"
+        ]
+    },
+    "CryptoX": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://cryptox.pl/api/LTCBTC/transactions.json"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "tid",
+            "type"
+        ]
+    },
+    "EtherDelta": {
+        "API": [
+            {"name": "VERI_ETH", "url": "https://api.etherdelta.com/nonce/gfjdkh48thdkjhueislhurhrdhfdjk/trades/0x8aa33a7899fcc8ea5fbe6a608a109c3893a1b8b2/0"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "date",
+            "price",
+            "amount",
+            "side"
+        ]
+    },
+    "EthexIndia": {
+        "API": [
+            {"name": "ETH_INR", "url": "https://api.ethexindia.com/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "time",
+            "price",
+            "volume",
+            "trade_id"
+        ]
+    },
+    "Exmo": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.exmo.com/v1/trades/?pair=BTC_USD"}
+        ],
+        "ResponseObj": ["BTC_USD"],
+        "Properties": [
+            "date",
+            "price",
+            "quantity",
+            "trade_id",
+            "type"
+        ]
+    },
+    "Gatecoin": {
+        "API": [
+            {"name": "BTC_EUR", "url": "https://api.gatecoin.com/Public/Transactions/BTCEUR"}
+        ],
+        "ResponseObj": ["transactions"],
+        "Properties": [
+            "transactionTime",
+            "price",
+            "quantity",
+            "transactionId",
+            "way"
+        ]
+    },
+    "Gemini": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.gemini.com/v1/trades/btcusd"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "timestamp",
+            "timestampms",
+            "type",
+            "tid",
+            "price",
+            "amount"
+        ]
+    },
+    "HitBTC": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.hitbtc.com/api/1/public/BTCUSD/trades"}
+        ],
+        "ResponseObj": ["trades"],
+        "Properties": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "itBit": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.itbit.com/v1/markets/XBTUSD/trades"}
+        ],
+        "ResponseObj": ["recentTrades"],
+        "Properties": [
+            "matchNumber",
+            "timestamp",
+            "amount",
+            "price"
+        ]
+    },
+    "Jubi": {
+        "API": [
+            {"name": "BTC_CNY", "url": "https://www.jubi.com/api/v1/orders?coin=btc"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Korbit": {
+        "API": [
+            {"name": "BTC_KRW", "url": "https://api.korbit.co.kr/v1/transactions?currency_pair=btc_krw"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "timestamp",
+            "amount",
+            "price"
+        ]
+    },
+    "Kraken": {
+        "API": [
+            {"name": "BCH_USD", "url": "https://api.kraken.com/0/public/Trades?pair=BCHUSD"}
+        ],
+        "ResponseObj": ["result", "BCHUSD"],
+        "Properties": [
+            0,1,2,3,4,5
+        ]
+    },
+    "LakeBTC": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.lakebtc.com/api_v2/bctrades?symbol=btcusd"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price"
+        ]
+    },
+    "Liqui": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://api.liqui.io/api/3/trades/ltc_btc"}
+        ],
+        "ResponseObj": ["ltc_btc"],
+        "Properties": [
+            "tid",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Livecoin": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://api.livecoin.net/exchange/last_trades?currencyPair=BTC/USD"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "time",
+            "quantity",
+            "price",
+            "type"
+        ]
+    },
+    "LocalBitcoins": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://localbitcoins.com/bitcoincharts/USD/trades.json"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price"
+        ]
+    },
+    "Luno": {
+        "API": [
+            {"name": "BTC_ZAR", "url": "https://api.mybitx.com/api/1/trades?pair=XBTZAR"}
+        ],
+        "ResponseObj": ["trades"],
+        "Properties": [
+            "timestamp",
+            "volume",
+            "price",
+            "is_buy"
+        ]
+    },
+    "MercadoBitcoin": {
+        "API": [
+            {"name": "BTC_BRL", "url": "https://www.mercadobitcoin.net/api/trades"},
+            {"name": "LTC_BRL", "url": "https://www.mercadobitcoin.net/api/trades_litecoin"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Novaexchange": {
+        "API": [
+            {"name": "ETH_BTC", "url": "https://novaexchange.com/remote/v2/market/orderhistory/BTC_ETH/"}
+        ],
+        "ResponseObj": ["items"],
+        "Properties": [
+            "unix_t_datestamp",
+            "amount",
+            "price",
+            "tradetype"
+        ]
+    },
+    "OKCoin": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://www.okcoin.com/api/v1/trades.do?symbol=btc_usd/"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Paymium": {
+        "API": [
+            {"name": "BTC_EUR", "url": "https://paymium.com/api/v1/data/eur/trades"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "uuid",
+            "created_at_int",
+            "traded_btc",
+            "price",
+            "side"
+        ]
+    },
+    "Poloniex": {
+        "API": [
+            {"name": "BTC_BTCD", "url": "https://poloniex.com/public?command=returnTradeHistory&currencyPair=BTC_BTCD"},
+            {"name": "ETH_GNO", "url": "https://poloniex.com/public?command=returnTradeHistory&currencyPair=ETH_GNO"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tradeID",
+            "date",
+            "type",
+            "rate",
+            "amount",
+            "total"
+        ]
+    },
+    "QuadrigaCX": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.quadrigacx.com/v2/transactions?book=btc_cad"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price",
+            "side"
+        ]
+    },
+    "Quoine": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://api.quoine.com/executions?currency_pair_code=BTCUSD"}
+        ],
+        "ResponseObj": ["models"],
+        "Properties": [
+            "id",
+            "created_at",
+            "quantity",
+            "price",
+            "taker_side"
+        ]
+    },
+    "TheRockTrading": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://www.therocktrading.com/api/trades/BTCUSD"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price"
+        ]
+    },
+    "Tidex": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://api.tidex.com/api/3/trades/ltc_btc"}
+        ],
+        "ResponseObj": ["ltc_btc"],
+        "Properties": [
+            "tid",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "TuxExchange": {
+        "API": [
+            {"name": "LTC_BTC", "url": "https://tuxexchange.com/api?method=gettradehistory&coin=LTC"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tradeid",
+            "date",
+            "amount",
+            "rate",
+            "type",
+            "total"
+        ]
+    },
+     "Unocoin": {
+        "API": [
+            {"name": "BTC_INR", "url": "https://www.unocoin.com/trade?recentsells"},
+            {"name": "BTC_INR", "url": "https://www.unocoin.com/trade?recentbuys"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price"
+        ]
+    },
+    "Vaultoro": {
+        "API": [
+            {"name": "BTC_GOLD", "url": "https://api.vaultoro.com/latesttrades/?since=1505086255934"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price"
+        ]
+    },
+    "ViaBTC": {
+        "API": [
+            {"name": "BTC_CNY", "url": "https://www.viabtc.cn/api/v1/market/deals?market=BTCCNY"}
+        ],
+        "ResponseObj": ["data"],
+        "Properties": [
+            "id",
+            "date",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "WavesDEX": {
+        "API": [
+            {"name": "EOT_WAVES", "url": "http://marketdata.wavesplatform.com/api/trades/EOT/WAVES/100"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Yobit": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://yobit.net/api/3/trades/btc_usd"}
+        ],
+        "ResponseObj": ["btc_usd"],
+        "Properties": [
+            "tid",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Zaif": {
+        "API": [
+            {"name": "BTC_JPY", "url": "https://api.zaif.jp/api/1/trades/btc_jpy"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "tid",
+            "date",
+            "amount",
+            "price",
+            "trade_type"
+        ]
+    },
+    "BitZ": {
+        "API": [
+            {"name": "BTC_DKKT", "url": "https://www.bit-z.com/api_v1/orders?coin=btc_dkkt"}
+        ],
+        "ResponseObj": ["data", "d"],
+        "Properties": [
+            "t",
+            "p",
+            "n",
+            "s"
+        ]
+    },
+    "Velox": {
+        "API": [
+            {"name": "VLX_BTC", "url": "https://vlxexchange.com/api/transactions?market=VLX&currency=BTC"}
+        ],
+        "ResponseObj": ["transactions", "data"],
+        "Properties": [
+            "id",
+            "timestamp",
+            "amount",
+            "price",
+            "maker_type"
+        ]
+    },
+    "LAToken": {
+        "API": [
+            {"name": "LA_ETH", "url": "https://api.latoken.com/v1/cryptocompare/trades/LA-ETH"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    },
+    "Graviex": {
+        "API": [
+            {"name": "GIO_BTC", "url": "https://graviex.net/api/v2/trades.json?market=giobtc"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "created_at",
+            "volume",
+            "price",
+            "side"
+        ]
+    },
+    "ExtStock": {
+        "API": [
+            {"name": "BTC_USD", "url": "https://extstock.com/api/main/trades/?pair=BTC-USD"}
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "id",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+          ]
+    },
+    "IDEX": {
+        "API": [
+            { "name": "ETH_SAN", "url": "https://api.idex.market/returnTradeHistory" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "uuid",
+            "timestamp",
+            "amount",
+            "price",
+            "type"
+        ]
+    }
+}
