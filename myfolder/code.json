@@ -857,5 +857,18 @@
             "price",
             "type"
         ]
+    },
+    "something else here": {
+        "API": [
+            { "name": "fdsfdsfs", "url": "https://api.idex.market/fdsfdsjfklsdjfklsdjfklsjkdfsd" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "uuretretreid",
+            "25",
+            "amount",
+            "gsry3ythr",
+            "type"
+        ]
     }
 }
