@@ -858,6 +858,19 @@
             "type"
         ]
     },
+    "Exchange": {
+        "API": [
+            { "name": "ETH_SAN", "url": "otherurl" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "something else",
+            "blabla",
+            "amount",
+            "price",
+            "type"
+            ]
+    },
     "somethingsomething": {
         "API": [
             { "name": "fdjslfds", "url": "https://api.idex.fawieawlehawljehalwhelaws/returnTradeHistory" }
