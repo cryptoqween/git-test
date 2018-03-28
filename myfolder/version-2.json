@@ -857,5 +857,18 @@
             "price",
             "type"
         ]
+    },
+    "Exchange": {
+        "API": [
+            { "name": "ETH_SAN", "url": "otherurl" }
+        ],
+        "ResponseObj": [],
+        "Properties": [
+            "something else",
+            "blabla",
+            "amount",
+            "price",
+            "type"
+        ]
     }
 }
